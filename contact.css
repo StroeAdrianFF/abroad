@@ -1,0 +1,62 @@
+body{
+  font-family: Merriweather;
+}
+
+.topnav {
+  background-color: rgba(0,0,0, 0.1);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.background{
+/* border: 2px red dashed;*/
+ position: fixed !important;
+ position: absolute;
+ top: 0; 
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: url(descarcare.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: 0% 40%;
+ z-index: -1;
+}
+
+
+#twitter{
+  padding-left:5em;
+  padding-top: 0em;
+  margin-top: 4em;
+
+}
+
+#instagram{
+  padding-left: 1.75em;
+  padding-top: 0em;
+  margin-top: 5em;
+ }
+
+ p{
+  color:pink;
+  margin-top:5em;
+  text-align: center;
+  text-shadow: -3px 4px 3px black;
+ }

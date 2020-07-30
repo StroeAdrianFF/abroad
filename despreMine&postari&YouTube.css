@@ -1,0 +1,196 @@
+/*TOTUL PENTRU PAGINA "DESPRE MINE"*/
+body{
+  font-family: Merriweather;
+}
+
+.topnav {
+  background-color: rgba(0,0,0, 0.1);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.background{
+/* border: 2px red dashed;*/
+ position: fixed !important;
+ position: absolute;
+ top: 0; 
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: url(descarcare.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: 0% 40%;
+ z-index: -1;
+}
+
+#titlu{
+  text-align: center;
+  padding-bottom: 5em;
+  padding-top: 8em;
+  color: pink;
+}
+
+#containerInformatii {
+/*border: 2px red dotted; */
+float: left;
+width: 70%;
+height: 60%;
+word-wrap: break-word;/*sparge textul din interioriul divului, ca sa nu treaca peste divul cu imaginea din dreapta*/
+word-spacing: 1px; 
+color:pink;
+}
+
+.infoBox{
+  color: white;
+  text-shadow: -3px 4px 3px black;
+  /*border: 2px blue dashed;*/
+  height: 100%;
+  position: relative;
+}
+
+#containerPoza{
+/*border: 2px blue dotted;*/
+float: right;
+width: 30%;
+height: 45%;
+background:url(ChrisBroad.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: 45%;
+box-shadow: 25px 25px 50px 0 white inset, -5px -5px 15px 0 white inset;  /*desemneaza umbrele albe din interioriul imaginii*/
+border-radius: 60px; 
+}
+
+#containerInformatii p{
+	text-align: justify;
+}
+
+
+#containerInformatii p a{
+	color: white;
+}
+
+#containerInformatii p a:hover{
+	color: pink;
+}
+
+#ikuzo{
+	margin-left:9em;
+	font-size: 40px;
+}
+
+
+
+/*TOTUL PENTRU PAGINA "POSTARI"*/
+
+
+#contentulMeu{
+  margin-top: 4em;
+  text-shadow: -3px 4px 3px black;
+  color: pink;
+  text-align: center;
+}
+
+
+.row {
+  height:200px;
+}
+
+.liniaUnu{
+  margin-bottom: 1em;
+}
+
+.liniaDoi{
+ margin-bottom: 1em;
+}
+
+#liniaUnuPoza{
+  height:200px;
+  background: url(oZiViata.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  border-radius:20px;
+}
+
+#liniaDoiPoza{
+  height:200px;
+  background: url(12lucruri.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  border-radius:20px;
+}
+
+#liniaTreiPoza{
+  height:200px;
+  background: url(catDeScump.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  border-radius:20px;
+  background-position: 95%;
+}
+
+#liniaPatruPoza{
+   height:200px;
+  background: url(japoneza.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  border-radius:20px;
+  background-position: 10%;
+}
+
+
+/*TOTUL PENTRU PAGINA "YOUTUBE"*/
+#descriereYoutube{
+  margin-top: 4em;
+  color: pink;
+  text-shadow: -3px 4px 3px black;
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 2em;
+}
+
+#contentYoutube{
+  margin-top: 1em;
+}
+
+#liniaUnu, #liniaDoi{
+  margin-bottom: 1em;
+}
+
+
+.video-container {
+  position:relative;
+  overflow:hidden;
+  border:5px pink ridge;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
