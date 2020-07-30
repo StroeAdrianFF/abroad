@@ -47,8 +47,13 @@ margin-right: 0px!important;
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: rgba(0,0,0,0.2)
+  background-color: rgba(0,0,0,0.2);
+  background-image: url(/tokyo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/*
 .video-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -85,4 +90,4 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-
+*/
